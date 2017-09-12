@@ -65,11 +65,11 @@
 </distributionManagement> -->
   
 <repositories>
-        <repository>
-            <id>Jokerblazes-connection</id>
-            <url>https://raw.github.com/Jokerblazes/maven-project/master/com</url>
-        </repository>
-    </repositories>
+	<repository>
+		<id>Jokerblazes-connection</id>
+		<url>https://raw.github.com/Jokerblazes/maven-project/master/com</url>
+	</repository>
+</repositories>
     <!-- <repositories>
         <repository>
             <id>Jokerblazes-jokerORM</id>
