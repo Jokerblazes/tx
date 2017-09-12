@@ -5,6 +5,11 @@ import java.lang.reflect.Method;
 import com.joker.connection.TransactionUtil;
 import com.joker.tx.entity.Transaction;
 
+/**
+ * 事务过滤器
+ * @author joker
+ * {@link https://github.com/Jokerblazes/tx.git}
+ */
 public class TxInterceptor extends Interceptor {
 	
 	public void before(Method method, Object[] args) {
