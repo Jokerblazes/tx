@@ -1,0 +1,97 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.joker</groupId>
+  <artifactId>tx</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>tx</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <!-- <build>
+		<plugins>
+
+			<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.1</version>
+			<configuration>
+				<source>1.7</source>
+				<target>1.7</target>
+				<compilerId>eclipse</compilerId>
+			</configuration>
+			<dependencies>
+				<dependency>
+					<groupId>org.codehaus.plexus</groupId>
+					<artifactId>plexus-compiler-eclipse</artifactId>
+					<version>2.2</version>
+				</dependency>
+			</dependencies>
+		</plugin>
+		
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<phase>package</phase>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+
+
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ssh-external</artifactId>
+				<version>2.9</version>
+			</extension>
+		</extensions>
+	</build>
+<distributionManagement>
+	<repository>
+		<id>tx</id>
+		<url>file:/Users/joker/Desktop/maven-project/</url>
+	</repository>
+</distributionManagement> -->
+  
+<repositories>
+        <repository>
+            <id>Jokerblazes-connection</id>
+            <url>https://raw.github.com/Jokerblazes/maven-project/master/com</url>
+        </repository>
+    </repositories>
+    <!-- <repositories>
+        <repository>
+            <id>Jokerblazes-jokerORM</id>
+            <url>https://raw.github.com/Jokerblazes/maven-project/master</url>
+        </repository>
+    </repositories>-->
+  <dependencies>
+    <dependency>
+	<groupId>org.slf4j</groupId>
+	<artifactId>slf4j-log4j12</artifactId>
+	<version>1.7.2</version>
+</dependency>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.10</version>
+		<scope>test</scope>
+	</dependency>
+	<dependency>
+      <artifactId>connection</artifactId>
+      <groupId>com.joker</groupId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
