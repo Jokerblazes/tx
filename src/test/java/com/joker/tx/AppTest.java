@@ -2,7 +2,6 @@ package com.joker.tx;
 
 import org.junit.Test;
 
-import com.joker.tx.proxy.ServiceProxyFactory;
 
 /**
  * Unit test for simple App.
