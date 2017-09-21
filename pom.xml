@@ -79,7 +79,7 @@
   
 <repositories>
 	<repository>
-		<id>Jokerblazes-connection</id>
+		<id>Jokerblazes-support</id>
 		<url>https://raw.github.com/Jokerblazes/maven-project/master/com</url>
 	</repository>
 </repositories>
@@ -102,7 +102,7 @@
 		<scope>test</scope>
 	</dependency>
 	<dependency>
-      <artifactId>connection</artifactId>
+      <artifactId>support</artifactId>
       <groupId>com.joker</groupId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
